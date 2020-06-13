@@ -5,7 +5,7 @@ import UserInput from './components/UserInput/UserInput';
 
 function App() {
   const [userName, setUserName] = useState('Dias');
-  
+
   let handleChange = (e) => {
     console.log("logging");
     setUserName(e.target.value);
